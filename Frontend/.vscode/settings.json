@@ -1,0 +1,8 @@
+{
+    "path-intellisense.autoTriggerNextSuggestion": true,
+    "path-intellisense.mappings": {
+         "typescript.suggest.paths": true ,
+         "javascript.suggest.paths": true 
+    }
+    
+}
