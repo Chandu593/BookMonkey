@@ -1,7 +1,5 @@
 const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost:27017/BookMonkey',{
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
   serverSelectionTimeoutMS: 30000, // Increase timeout to 30 seconds
 })
   .then(() => console.log('Connected to MongoDB(BookMonkey)'))
